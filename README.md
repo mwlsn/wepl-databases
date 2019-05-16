@@ -13,10 +13,10 @@ I decided it would be best to create custom taxonomies for access restrictions, 
 
 Below is list of steps to follow in order to implement a custom post type & taxonomy in your website.  These steps and instructions are only an abbreviated version of what is required.  For a full understanding of how this works, I highly recommend watching the following tutorial: [WordPress: Custom Post Types & Taxonomies](https://www.lynda.com/WordPress-tutorials/WordPress-Custom-Post-Types-Taxonomies/163113-2.html).
 
-### STEP 1: Create a plugin  to register the post type & taxonomy (it is easier than it seems)
+## STEP 1: Create a plugin  to register the post type & taxonomy (it is easier than it seems)
 Custom Post Type & Taxonomy Code
 
-### STEP 2: Edit and create new templates so that the custom post types and taxonomies display properly throughout your website.
+## STEP 2: Edit and create new templates so that the custom post types and taxonomies display properly throughout your website.
 If you haven’t already created a child theme for your website, do that now.  All the templates described below will be stored within the child theme folder.  We’ll be creating or editing 7 files total:
 
 1. single-databases.php
@@ -29,10 +29,10 @@ If you haven’t already created a child theme for your website, do that now.  A
 
 Brief instructions and code snippets are provided [here](http://melanieawilson.com/melanieawilson/wp-content/uploads/2016/07/InstructionsforCustompostype.pdf).
 
-### STEP 3: Linking to an External URL
+## STEP 3: Linking to an External URL
 If you are interested in having your database post name link directly to an external URL, follow the steps in this article: [How to Link to External Links from the Post Title in WordPress](https://www.wpbeginner.com/wp-tutorials/how-to-link-to-external-links-from-the-post-title-in-wordpress/)
 
-### STEP 4: Sorting the databases in alphabetical order
+## STEP 4: Sorting the databases in alphabetical order
 If you would like your new custom post type to display in alphabetical order, add this code to the function.php page:
 
 ```
@@ -50,7 +50,7 @@ add_action( ‘pre_get_posts’, ‘owd_post_order’ );
 
 Below are the steps and resources that I followed and used to implement custom post types.
 ---
-#### Resources:
+### Resources:
 [WordPress: Custom Post Types & Taxonomies (Lynda.com – Paid resource)](https://www.lynda.com/WordPress-tutorials/WordPress-Custom-Post-Types-Taxonomies/163113-2.html)
 
 [How to Link to External Links from the Post Title in WordPress (WPBeginner.com)](https://www.wpbeginner.com/wp-tutorials/how-to-link-to-external-links-from-the-post-title-in-wordpress/)
