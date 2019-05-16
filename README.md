@@ -14,7 +14,7 @@ I decided it would be best to create custom taxonomies for access restrictions, 
 Below is list of steps to follow in order to implement a custom post type & taxonomy in your website.  These steps and instructions are only an abbreviated version of what is required.  For a full understanding of how this works, I highly recommend watching the following tutorial: [WordPress: Custom Post Types & Taxonomies](https://www.lynda.com/WordPress-tutorials/WordPress-Custom-Post-Types-Taxonomies/163113-2.html).
 
 ## STEP 1: Create a plugin  to register the post type & taxonomy (it is easier than it seems)
-Custom Post Type & Taxonomy Code
+[Custom Post Type & Taxonomy Code](http://melanieawilson.com/melanieawilson/wp-content/uploads/2016/07/posttypes.pdf)
 
 ## STEP 2: Edit and create new templates so that the custom post types and taxonomies display properly throughout your website.
 If you haven’t already created a child theme for your website, do that now.  All the templates described below will be stored within the child theme folder.  We’ll be creating or editing 7 files total:
