@@ -1,0 +1,55 @@
+/*
+ Theme Name:     Spacious Pro Child Theme
+ Theme URI:      http://themegrill.com/themes/spacious-pro/
+ Description:    Spacious Pro Child Theme
+ Author:         Theme Grill with modifications by Melanie Wilson
+ Author URI:     http://themegrill.com/themes/spacious-pro/
+ Template:       spacious-pro
+ Version:        1.0.0
+*/
+
+@import url("../spacious-pro/style.css");
+
+
+
+
+
+
+
+.taxonomies {
+    font-family: 'Lato';
+    font-size: 80%;
+    margin-bottom: .5rem;
+
+
+}
+
+
+.restriction {
+    font-family: 'Lato';
+    font-size: 80%;
+	color: #FFA500;
+	font-weight: 900;
+    margin-bottom: .1rem;
+
+}
+
+.intro {
+
+font-size: 14px;
+}
+
+
+.archive h2 {
+padding-bottom: 2px;
+padding-top: 2px;
+font-size: 22px;
+}
+
+.database-info  {
+margin: 2px;
+padding: 2px;
+background-color: #f5f5f5;
+width:60%;
+
+}
