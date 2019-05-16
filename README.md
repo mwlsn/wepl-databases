@@ -49,7 +49,8 @@ add_action( ‘pre_get_posts’, ‘owd_post_order’ );
 “The more you know the more you realize you don’t know” is what truly intimidates me about web development but also inspires me to dive into the rabbit hole and learn more (so much more!).
 
 Below are the steps and resources that I followed and used to implement custom post types.
----
+
+----
 ### Resources:
 [WordPress: Custom Post Types & Taxonomies (Lynda.com – Paid resource)](https://www.lynda.com/WordPress-tutorials/WordPress-Custom-Post-Types-Taxonomies/163113-2.html)
 
