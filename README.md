@@ -1,3 +1,5 @@
+[View the live A-Z Database page.](https://we247.org/databases/)
+
 When I first created a website for the library using WordPress, I added all the databases as regular posts.  I assumed that I would sort them using categories.  This managed to work well enough but has some limitations.  I wanted to have more control over our databases.  I noticed that a number of libraries list their databases on a single page in alphabetical order with the additional option of sorting the databases by topic.  
 
 Originally I assumed I would have to cobble something together by creating a database in MySQL and using PHP to display the results.  I had no idea that this type of functionality was built into WordPress with the ability to create custom post types!
